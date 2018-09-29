@@ -30,7 +30,8 @@ new Vue({
       this.monsterAttack();
     },
     heal: function() {
-
+      this.playerHealth += 10;
+      this.monsterAttack();
     },
     giveUp: function() {
 
